@@ -4,12 +4,27 @@ phonebook = {'Chris':'555−1111',
              'Katie':'555−2222',
              'Joanne':'555−3333'}
 
+
 print()
 print('*****  start section 1 - print dictionary ********')
 print()
 
 
-'''
+
+print(phonebook)
+print(type(phonebook))
+
+
+phone = phonebook['Chris']
+
+print(phone)
+
+print(len(phonebook))
+
+mydictionary = dict(m=8,n=9)
+
+
+print(mydictionary)
 
 
 print()
@@ -17,23 +32,9 @@ print('*****  end section 1 ********')
 print()
 
 
-print(phonebook)
-print(type(phonebook))
 
 
-phone = phonebook['chris']
-
-print(phone)
-
-print(len(phonebook))
-
-my dictionary = dict(m=8,n=9)
-
-
-print(my dictionary)
-
-
-
+'''
 
 
 
